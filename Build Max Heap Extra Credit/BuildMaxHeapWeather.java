@@ -16,7 +16,7 @@ public class BuildMaxHeapWeather
     public static void main(String[] args)
     {
         String location = args[0];
-        String API_KEY = "b6d2a13db6ff19504d36946c80166265";
+        String API_KEY = "PRIVATE";
         String units = "imperial";
 
         String urlString = "http://api.openweathermap.org/data/2.5/weather?q=" + location + "&appid=" + API_KEY + "&units=" + units;
